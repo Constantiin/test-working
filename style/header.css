@@ -1,0 +1,128 @@
+.header {
+    position: relative;
+    max-width: 100%;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 30px;
+    background-color: #fff;
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+
+.profile__auth-btn {
+    width: 24px;
+    height: 24px;
+    background-image: url("../image/profile.svg");
+}
+
+.header__search {
+    position: absolute;
+    top: 64px;
+}
+
+.search {
+    display: flex;
+    width: 335px;
+    margin: 0 auto;
+    height: 40px;
+    align-items: center;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+}
+
+.search__form {
+    display: block;
+    width: 100%;
+}
+
+.search__input {
+    border: none;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+
+input.search__input::-webkit-input-placeholder {
+    color:#BBC4D6 ; opacity:1;
+}/* webkit */
+input.search__input::-moz-placeholder {
+    color:#BBC4D6 ; opacity:1;
+}/* Firefox 19+ */
+input.search__input:-moz-placeholder {
+    color:#BBC4D6 ; opacity:1;
+}/* Firefox 18- */
+input.search__input:-ms-input-placeholder {
+    color:#BBC4D6 ; opacity:1;
+}/* IE */
+
+.profile__username,
+.profile__user-photo {
+    display: none;
+}
+
+@media (min-width: 425px) {
+
+    .search {
+        width: 385px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .header__search {
+        position: relative;
+        top: 0;
+    }
+
+    .search {
+        width: 344px;
+    }
+
+    .profile__auth-btn {
+        display: none;
+    }
+
+    .header__profile {
+        border-left: 1px solid #EBEBF1;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        height: 75px;
+    }
+
+    .profile__username,
+    .profile__user-photo {
+        display: inline;
+    }
+
+    .profile__username {
+        color: #768298;
+        margin-left: 19px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .search {
+        width: 550px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .search {
+        width: 763px;
+    }
+
+}

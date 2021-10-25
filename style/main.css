@@ -1,0 +1,138 @@
+.main {
+    margin-top: 128px;
+    max-width: 100%;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title {
+    height: 45px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.main__partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partners__item {
+    text-align: center;
+    width: 335px;
+    height: 140px;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+}
+
+.partners__btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 730px) {
+    .main__partners {
+        justify-content: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .main {
+        margin-top: 90px;
+    }
+
+    .partners__item {
+        width: 229px;
+        height: 120px;
+    }
+
+    .partners__img_henkel {
+        width: 117px;
+        height: 64px;
+    }
+
+    .partners__img_john-deere {
+        width: 183px;
+        height: 34px;
+    }
+
+    .partners__img_mc-donalds {
+        width: 99px;
+        height: 74px;
+    }
+
+    .partners__img_ikea {
+        width: 175px;
+        height: 70px;
+    }
+
+    .partners__img_reebok {
+        width: 187px;
+        height: 38px;
+    }
+
+    .partners__img_nike {
+        width: 143px;
+        height: 74px;
+    }
+
+    .partners__img_caterpillar {
+        width: 196px;
+        height: 30px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .main {
+        margin-top: 70px;
+    }
+
+    .main__title {
+        font-size: 36px;
+    }
+
+    .partners__item {
+        width: 267px;
+    }      
+
+    .partners__img_john-deere {
+        width: 234px;
+        height: 44px;
+    }
+
+    .partners__img_mc-donalds {
+        width: 85px;
+        height: 64px;
+    }
+
+    .partners__img_ikea {
+        width: 160px;
+        height: 64px;
+    }
+
+    .partners__img_reebok {
+        width: 234px;
+        height: 48px;
+    }
+
+    .partners__img_nike {
+        width: 122px;
+        height: 64px;
+    }
+
+    .partners__img_caterpillar {
+        width: 234px;
+        height: 36px;
+    }
+
+}
