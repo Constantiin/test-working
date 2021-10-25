@@ -50,3 +50,9 @@ a {
     padding: 20px;
     margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+    hr {
+        display: none;
+    }
+}

@@ -65,12 +65,8 @@ input.search__input:-ms-input-placeholder {
     display: none;
 }
 
-@media (min-width: 425px) {
-
-    .search {
-        width: 385px;
-    }
-
+.header__separator {
+    display: none;
 }
 
 @media (min-width: 768px) {
